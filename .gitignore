@@ -1,0 +1,37 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environment folders
+env/
+venv/
+.venv/
+
+# Ignore model and vectorizer files (can be regenerated or too large)
+*.joblib
+*.pkl
+*.h5
+
+# Ignore input data folder (contains raw or private data)
+input/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore log files
+*.log
+
+# Ignore temporary or backup files
+*.tmp
+*.bak
+*.swp
+
+# Ignore IDE and editor folders
+.vscode/
+.idea/
